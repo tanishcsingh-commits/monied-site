@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monied</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Animation Library (AOS - super easy) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <h1>Monied</h1>
+  <a href="#contact" class="nav-btn">Contact</a>
+</header>
+
+<section class="hero" data-aos="fade-up">
+  <h2>Grow Your Money with Expert Financial Guidance</h2>
+  <p>Talk to us for personalized financial advice</p>
+  <a href="https://wa.me/919876543210" class="btn">WhatsApp Us</a>
+</section>
+
+<section class="services">
+  <h2 data-aos="fade-up">Our Services</h2>
+
+  <div class="card" data-aos="fade-up" data-aos-delay="100">
+    Investment Planning
+  </div>
+
+  <div class="card" data-aos="fade-up" data-aos-delay="200">
+    Wealth Management
+  </div>
+
+  <div class="card" data-aos="fade-up" data-aos-delay="300">
+    Financial Advice
+  </div>
+</section>
+
+<section class="trust" data-aos="fade-up">
+  <h2>Trusted by 10,000+ Clients</h2>
+</section>
+
+<section id="contact" class="contact" data-aos="fade-up">
+  <h2>Contact Us</h2>
+  <input placeholder="Your Name">
+  <input placeholder="Phone Number">
+  <button>Submit</button>
+</section>
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+</body>
+</html>
